@@ -9,6 +9,10 @@
 </head>
 <style>
 
+    .tabulka{
+        border: 1px solid black;
+    }
+
     header{
         width: 1160px;
         margin: 20px auto;
@@ -61,14 +65,45 @@ main{
     </dl>
     </p>
 </section>
-<section id="Tabulka">
+<section id="Tabulka" class="Tabulka">
     <h2>Tabulka</h2>
     <table>
         <thead>
             <tr>
-                <th rowspan="2"></th>
+                <th rowspan="2">Nečíslovaný seznam</th>
+                <th colspan="2">Prvky stránek</th>
+                <th rowspan="2">obrázek</th>
+            </tr>
+            <tr>
+                <th>Značky</th>
+                <th>Entity</th>
             </tr>
         </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2"> 
+                <ul>
+                    <li>IP adresa</li>
+                    <li>Jmenná adresa</li>
+                    <li>URL</li>
+                </ul>
+            </td>
+            <td>H<sub>2</sub>O</td>
+            <td>&</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>c = a <sup>2</sup> + b<sup>2</sup></td>
+            <td>&copy</td>
+            <td></td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>odkaz</td>
+                <td colspan="3"><a href="https://www.w3schools.com">www.w3c.org </td>
+            </tr>
+        </tfoot>
     </table>
     </section>
 </main>
